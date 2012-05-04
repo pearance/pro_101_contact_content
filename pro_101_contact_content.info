@@ -1,0 +1,8 @@
+name = Pro 101 Contact Content
+description = Default content for the Pro 101 Contact page.
+core = 7.x
+package = Pro 101 Content (L)
+version = 7.x-1.0
+project = pro_101_contact_content
+features[content][] = contact
+features[features_api][] = api:1
