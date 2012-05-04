@@ -6,6 +6,5 @@ version = 7.x-1.0
 project = pro_101_contact_content
 dependencies[] = pro_101_form_infrastructure
 dependencies[] = uuid_features
-__drupal_alter_by_ref[][node][webform] = webform
+features[content][] = contact
 features[features_api][] = api:1
-features[uuid_node][] = db1c0d1e-48a8-28c4-4994-4057d95e72c3
