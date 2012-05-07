@@ -56,11 +56,11 @@ function pro_101_contact_content_content_defaults() {
           'extra' => array(
             'title_display' => 'before',
             'private' => 0,
+            'width' => '46',
             'disabled' => 0,
             'unique' => 0,
             'maxlength' => '60',
             'conditional_operator' => '=',
-            'width' => '',
             'field_prefix' => '',
             'field_suffix' => '',
             'description' => '',
@@ -81,10 +81,10 @@ function pro_101_contact_content_content_defaults() {
           'extra' => array(
             'title_display' => 'before',
             'private' => 0,
+            'width' => '46',
             'disabled' => 0,
             'unique' => 0,
             'conditional_operator' => '=',
-            'width' => '',
             'description' => '',
             'attributes' => array(),
             'conditional_component' => '',
@@ -103,10 +103,10 @@ function pro_101_contact_content_content_defaults() {
           'extra' => array(
             'title_display' => 'before',
             'private' => 0,
+            'width' => '46',
             'disabled' => 0,
             'unique' => 0,
             'conditional_operator' => '=',
-            'width' => '',
             'maxlength' => '',
             'field_prefix' => '',
             'field_suffix' => '',
@@ -128,11 +128,11 @@ function pro_101_contact_content_content_defaults() {
           'extra' => array(
             'title_display' => 0,
             'private' => 0,
+            'cols' => '46',
+            'rows' => '10',
             'resizable' => 1,
             'disabled' => 0,
             'conditional_operator' => '=',
-            'cols' => '',
-            'rows' => '',
             'description' => '',
             'attributes' => array(),
             'conditional_component' => '',
@@ -171,14 +171,21 @@ function pro_101_contact_content_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => '<h2>Contact</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+          'value' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
           'summary' => '',
           'format' => 'plain_text',
-          'safe_value' => '<h2>Contact</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          'safe_value' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ',
           'safe_summary' => '',
+        ),
+      ),
+    ),
+    'field_office_address' => array(
+      'und' => array(
+        0 => array(
+          'value' => '35 Journal Square Plaza, Suite 426, Jersey City, NJ 07306',
+          'format' => NULL,
+          'safe_value' => '35 Journal Square Plaza, Suite 426, Jersey City, NJ 07306',
         ),
       ),
     ),
