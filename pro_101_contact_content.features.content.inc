@@ -155,7 +155,7 @@ function pro_101_contact_content_content_defaults() {
       'external' => '0',
       'has_children' => '0',
       'expanded' => '0',
-      'weight' => '0',
+      'weight' => '-35',
       'identifier' => 'main-menu:node-name/contact',
     ),
     'title' => 'Contact',
