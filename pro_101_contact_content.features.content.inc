@@ -77,7 +77,7 @@ function pro_101_contact_content_content_defaults() {
           'form_key' => 'email',
           'name' => 'Email',
           'type' => 'email',
-          'value' => '%useremail',
+          'value' => '',
           'extra' => array(
             'title_display' => 'before',
             'private' => 0,
