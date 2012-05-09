@@ -17,28 +17,28 @@ function pro_101_contact_content_strongarm() {
   $strongarm->value = array(
     'type' => 'personal',
     'fn_n' => array(
-      'given-name' => '',
-      'family-name' => '',
+      'given-name' => 'John',
+      'family-name' => 'Doe',
     ),
-    'org' => '',
+    'org' => 'Demo & Demo',
     'use_site_name' => 0,
-    'tagline' => '',
+    'tagline' => 'We represent your best interest.',
     'adr' => array(
-      'street-address' => '',
-      'locality' => '',
-      'region' => '',
-      'postal-code' => '',
-      'country-name' => '',
+      'street-address' => '35 Journal Square Plaza',
+      'locality' => 'Jersey City',
+      'region' => 'NJ',
+      'postal-code' => '07306',
+      'country-name' => 'United States',
     ),
     'location' => array(
-      'longitude' => '',
-      'latitude' => '',
+      'longitude' => '40.731178',
+      'latitude' => '-74.06461',
     ),
     'phone' => array(
-      'voice' => '',
-      'fax' => '',
+      'voice' => '201-777-9999',
+      'fax' => '201-888-4444',
     ),
-    'email' => '',
+    'email' => 'johndoe@domain.com',
   );
   $export['contactinfo'] = $strongarm;
 
