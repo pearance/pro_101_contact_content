@@ -5,6 +5,7 @@ package = Pro 101 Content (L)
 php = 5.2.4
 version = 7.x-1.0
 project = pro_101_contact_content
+dependencies[] = defaultcontent
 dependencies[] = ds
 dependencies[] = uuid_features
 features[content][] = contact
