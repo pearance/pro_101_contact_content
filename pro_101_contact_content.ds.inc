@@ -25,15 +25,15 @@ function pro_101_contact_content_ds_layout_settings_info() {
         0 => 'webform',
       ),
       'right' => array(
-        0 => 'field_title_graphic',
-        1 => 'field_map_address',
+        0 => 'field_map_address',
+        1 => 'field_title_graphic',
         2 => 'body',
       ),
     ),
     'fields' => array(
       'webform' => 'left',
-      'field_title_graphic' => 'right',
       'field_map_address' => 'right',
+      'field_title_graphic' => 'right',
       'body' => 'right',
     ),
     'classes' => array(),
