@@ -115,7 +115,7 @@ function pro_101_contact_content_content_defaults() {
             'conditional_component' => '',
             'conditional_values' => '',
           ),
-          'mandatory' => '1',
+          'mandatory' => '0',
           'weight' => '2',
           'page_num' => 1,
         ),
