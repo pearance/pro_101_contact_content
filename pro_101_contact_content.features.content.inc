@@ -26,7 +26,7 @@ function pro_101_contact_content_content_defaults() {
       'auto_save' => '0',
       'submit_notice' => '1',
       'submit_text' => 'Inquire',
-      'submit_limit' => '3',
+      'submit_limit' => '2',
       'submit_interval' => '3600',
       'total_submit_limit' => '10',
       'total_submit_interval' => '3600',
