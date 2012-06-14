@@ -13,7 +13,10 @@ function pro_101_contact_content_content_defaults() {
   $content['contact'] = (object) array(
     'exported_path' => 'contact',
     'webform' => array(
-      'confirmation' => '<p style="text-align: center;">Your message has been sent successfully.<br />Thank you for contacting us.<br />We will respond shortly.</p>',
+      'confirmation' => '<p style="text-align: center;">Your message has been sent successfully.<br />
+	Thank you for contacting us.<br />
+	We will respond shortly.</p>
+',
       'confirmation_format' => 'plain_text',
       'redirect_url' => '<confirmation>',
       'status' => '1',
@@ -27,6 +30,7 @@ function pro_101_contact_content_content_defaults() {
       'submit_interval' => '3600',
       'total_submit_limit' => '10',
       'total_submit_interval' => '3600',
+      'webform_ajax' => '1',
       'record_exists' => TRUE,
       'roles' => array(
         0 => '1',
@@ -97,7 +101,7 @@ function pro_101_contact_content_content_defaults() {
         2 => array(
           'pid' => '0',
           'form_key' => 'phone',
-          'name' => 'Phone',
+          'name' => 'Phone (optional)',
           'type' => 'phone',
           'value' => '',
           'extra' => array(
