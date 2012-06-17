@@ -9,7 +9,6 @@ dependencies[] = contactinfo
 dependencies[] = context
 dependencies[] = defaultcontent
 dependencies[] = strongarm
-dependencies[] = uuid_features
 features[content][] = contact
 features[context][] = contact
 features[ctools][] = context:context:3
