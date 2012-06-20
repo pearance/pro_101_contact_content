@@ -30,7 +30,7 @@ function pro_101_contact_content_context_default_contexts() {
           'module' => 'contactinfo',
           'delta' => 'hcard',
           'region' => 'content',
-          'weight' => '0',
+          'weight' => '-10',
         ),
       ),
     ),
