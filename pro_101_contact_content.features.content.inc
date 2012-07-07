@@ -38,7 +38,7 @@ function pro_101_contact_content_content_defaults() {
       ),
       'emails' => array(
         1 => array(
-          'nid' => '1',
+          'nid' => '3',
           'eid' => '1',
           'email' => 'fontaine.cook@pearance.com',
           'subject' => '4',
