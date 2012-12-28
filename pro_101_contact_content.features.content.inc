@@ -118,6 +118,8 @@ function pro_101_contact_content_content_defaults() {
             'description' => '',
             'conditional_component' => '',
             'conditional_values' => '',
+            'width' => '',
+            'disabled' => FALSE,
           ),
           'mandatory' => '0',
           'weight' => '2',
