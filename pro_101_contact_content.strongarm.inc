@@ -15,7 +15,7 @@ function pro_101_contact_content_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'contactinfo';
   $strongarm->value = array(
-    'type' => 'personal',
+    'type' => 'business',
     'fn_n' => array(
       'given-name' => 'John',
       'family-name' => 'Doe',

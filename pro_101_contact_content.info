@@ -9,6 +9,7 @@ dependencies[] = contactinfo
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = defaultcontent
+dependencies[] = nodeblock
 dependencies[] = strongarm
 features[content][] = contact
 features[context][] = contact

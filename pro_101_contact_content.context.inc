@@ -15,7 +15,7 @@ function pro_101_contact_content_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'contact';
   $context->description = '';
-  $context->tag = 'Section';
+  $context->tag = 'Pages';
   $context->conditions = array(
     'defaultcontent' => array(
       'values' => array(
@@ -26,20 +26,35 @@ function pro_101_contact_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'nodeblock-contact_image' => array(
+          'module' => 'nodeblock',
+          'delta' => 'contact_image',
+          'region' => 'main_sidebar_1',
+          'weight' => 0,
+        ),
         'contactinfo-hcard' => array(
           'module' => 'contactinfo',
           'delta' => 'hcard',
-          'region' => 'content',
+          'region' => 'main_sidebar_1',
           'weight' => 1,
         ),
+        'nodeblock-googlemap' => array(
+          'module' => 'nodeblock',
+          'delta' => 'googlemap',
+          'region' => 'main_sidebar_1',
+          'weight' => 2,
+        ),
       ),
+    ),
+    'delta' => array(
+      'delta_template' => 'double_column',
     ),
   );
   $context->condition_mode = 0;
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Section');
+  t('Pages');
   $export['contact'] = $context;
 
   return $export;

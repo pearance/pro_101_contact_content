@@ -38,7 +38,7 @@ function pro_101_contact_content_content_defaults() {
       ),
       'emails' => array(
         1 => array(
-          'nid' => '1',
+          'nid' => '32',
           'eid' => '1',
           'email' => '2',
           'subject' => '4',
@@ -173,21 +173,27 @@ function pro_101_contact_content_content_defaults() {
           'weight' => '4',
           'page_num' => 1,
         ),
+        5 => array(
+          'pid' => '0',
+          'form_key' => 'disclaimer',
+          'name' => 'Disclaimer',
+          'type' => 'markup',
+          'value' => '<p>
+	Use of this form for communication with the firm or any individual member of the firm does NOT establish a professional-client relationship. Confidential or time-sensitive information should not be sent through this form.
+</p>
+',
+          'extra' => array(
+            'conditional_operator' => '=',
+            'format' => 'plain_text',
+            'private' => 0,
+            'conditional_component' => '',
+            'conditional_values' => '',
+          ),
+          'mandatory' => '0',
+          'weight' => '5',
+          'page_num' => 1,
+        ),
       ),
-    ),
-    'link' => array(
-      'menu_name' => 'main-menu',
-      'link_path' => 'node-name/contact',
-      'router_path' => 'node/%',
-      'link_title' => 'Contact',
-      'options' => array(),
-      'module' => 'menu',
-      'hidden' => '0',
-      'external' => '0',
-      'has_children' => '0',
-      'expanded' => '0',
-      'weight' => '10',
-      'identifier' => 'main-menu:node-name/contact',
     ),
     'title' => 'Contact',
     'status' => '1',
@@ -202,18 +208,15 @@ function pro_101_contact_content_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+          'value' => '<h2 class="block-title">
+	General Inquiries
+</h2>
+
+<p>
+	Call us at 201-777-9999 or use the form below to schedule a free consultation with one of our lawyers. All cases are handled in a highly professional manner developed through years of skill and expertise.
+</p>',
           'summary' => '',
           'format' => 'plain_text',
-        ),
-      ),
-    ),
-    'field_map_address' => array(
-      'und' => array(
-        0 => array(
-          'value' => '35 Journal Square, Suite 426, Jersey City, NJ 07306',
-          'format' => NULL,
-          'safe_value' => '35 Journal Square, Suite 426, Jersey City, NJ 07306',
         ),
       ),
     ),
