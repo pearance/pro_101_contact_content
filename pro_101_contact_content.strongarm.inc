@@ -22,7 +22,7 @@ function pro_101_contact_content_strongarm() {
     ),
     'org' => 'Demo & Demo',
     'use_site_name' => 0,
-    'tagline' => 'We represent your best interest.',
+    'tagline' => 'Mon-Fri | 9am-5pm',
     'use_site_slogan' => 0,
     'adr' => array(
       'street-address' => '35 Journal Square Plaza',
